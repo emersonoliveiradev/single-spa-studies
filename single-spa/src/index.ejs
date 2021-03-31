@@ -28,7 +28,11 @@
       "imports": {
         "@eo/root-config": "//localhost:9000/eo-root-config.js",
         "@eo/react-single": "//localhost:8500/eo-react-single.js",
-        "@eo/react-multiples": "//localhost:8500/eo-react-multiples.js"
+        "@eo/react-multiples": "//localhost:8501/eo-react-multiples.js",
+        "@eo/react-parcel": "//localhost:8502/eo-react-parcel.js",
+        "@eo/react-route": "//localhost:8503/eo-react-route.js",
+        "@eo/utils": "//localhost:8504/eo-utils.js",
+        "@eo/react-lazy": "//localhost:8505/eo-react-lazy.js"
       }
     }
   </script>
@@ -36,11 +40,11 @@
 
   <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script>
   <% if (isLocal) { %>
-  <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.js"></script>
   <% } else { %>
-  <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/system.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/systemjs@6.8.3/dist/extras/amd.min.js"></script>
   <% } %>
 </head>
 <body>
