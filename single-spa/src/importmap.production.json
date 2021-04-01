@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "@eo/root-config": "http://localhost:9000/eo-root-config.js",
+    "@eo/react-single": "http://localhost:8500/eo-react-single.js",
+    "@eo/react-multiples": "http://localhost:8501/eo-react-multiples.js",
+    "@eo/react-parcel": "http://localhost:8502/eo-react-parcel.js",
+    "@eo/react-route": "http://localhost:8503/eo-react-route.js",
+    "@eo/utils": "http://localhost:8504/eo-utils.js",
+    "@eo/react-lazy": "http://localhost:8505/eo-react-lazy.js",
+    "@eo/react-header": "http://localhost:8506/eo-react-header.js"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "imports": {
+    "@eo/root-config": "https://222.222.222.222:9000/eo-root-config.js",
+    "@eo/react-single": "https://222.222.222.222:8500/eo-react-single.js",
+    "@eo/react-multiples": "https://222.222.222.222:8501/eo-react-multiples.js",
+    "@eo/react-parcel": "https://222.222.222.222:8502/eo-react-parcel.js",
+    "@eo/react-route": "https://222.222.222.222:8503/eo-react-route.js",
+    "@eo/utils": "https://222.222.222.222:8504/eo-utils.js",
+    "@eo/react-lazy": "https://222.222.222.222:8505/eo-react-lazy.js",
+    "@eo/react-header": "https://222.222.222.222:8506/eo-react-header.js"
+  }
+}

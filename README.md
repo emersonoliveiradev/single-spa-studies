@@ -81,3 +81,9 @@ dai só vai carregar o que cada rota precisa
 ### Load de dependências compartilhadas
 
 Em weback externals
+
+# Para publicar
+
+Para cada um
+npm run build
+server -s dist

@@ -24,20 +24,24 @@
   <link rel="preload" href="https://cdn.jsdelivr.net/npm/single-spa@5.9.0/lib/system/single-spa.min.js" as="script">  
 
   <% if (isLocal) { %>
-  <script type="systemjs-importmap">
-    {
-      "imports": {
-        "@eo/root-config": "//localhost:9000/eo-root-config.js",
-        "@eo/react-single": "//localhost:8500/eo-react-single.js",
-        "@eo/react-multiples": "//localhost:8501/eo-react-multiples.js",
-        "@eo/react-parcel": "//localhost:8502/eo-react-parcel.js",
-        "@eo/react-route": "//localhost:8503/eo-react-route.js",
-        "@eo/utils": "//localhost:8504/eo-utils.js",
-        "@eo/react-lazy": "//localhost:8505/eo-react-lazy.js",
-        "@eo/react-header": "//localhost:8506/eo-react-header.js"
+    <!-- <script type="systemjs-importmap" src="minha-url/importmap.development.json"></script> -->
+    <script type="systemjs-importmap">
+      {
+        "imports": {
+          "@eo/root-config": "//localhost:9000/eo-root-config.js",
+          "@eo/react-single": "//localhost:8500/eo-react-single.js",
+          "@eo/react-multiples": "//localhost:8501/eo-react-multiples.js",
+          "@eo/react-parcel": "//localhost:8502/eo-react-parcel.js",
+          "@eo/react-route": "//localhost:8503/eo-react-route.js",
+          "@eo/utils": "//localhost:8504/eo-utils.js",
+          "@eo/react-lazy": "//localhost:8505/eo-react-lazy.js",
+          "@eo/react-header": "//localhost:8506/eo-react-header.js"
+        }
       }
-    }
-  </script>
+    </script>
+    
+  <% } else { %>
+    <script type="systemjs-importmap" src="minha-url/importmap.production.json"></script>
   <% } %>
 
   <script src="https://cdn.jsdelivr.net/npm/import-map-overrides@2.2.0/dist/import-map-overrides.js"></script>
