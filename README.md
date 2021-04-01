@@ -77,3 +77,7 @@ LazyLoad... code split
 Não será apenas 1 arquivo js no pacote final
 vai ter um arquivo de entrada que carrega os outros,
 dai só vai carregar o que cada rota precisa
+
+### Load de dependências compartilhadas
+
+Em weback externals

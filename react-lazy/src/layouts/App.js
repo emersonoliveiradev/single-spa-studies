@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const App = ({ children }) => (
   <main>
-    <h1>@mc/react-multiples</h1>
+    <h1>@mc/react-lazy</h1>
     <nav>
       <ul>
         <li>
