@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const App = ({ children }) => (
   <main>
-    <h1>@mc/react-multiples</h1>
+    <h1>@eo/react-multiples</h1>
     <nav>
       <ul>
         <li>
